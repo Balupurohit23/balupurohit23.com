@@ -14,8 +14,11 @@
   },
   "dependencies": {
     "gatsby": "^2.13.67",
+    "install": "^0.13.0",
+    "npm": "^6.10.3",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "react-social-icons": "^4.1.0"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
