@@ -1,0 +1,82 @@
+.bContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  min-height: 95vh;
+  font-family: "NanumSquareRound";
+  font-size: 18px;
+  font-weight: 800px;
+  font-color: white;
+}
+.bContainer .bCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #C6B5FF;
+  min-width: 600px;
+  max-width: 700px;
+  padding: 3rem 5rem;
+  border: 1px solid rgba(244, 244, 244, 0);
+  border-radius: 3px;
+}
+.bContainer .bCard .img img {
+  margin: 0;
+}
+.bContainer .bCard .img .img-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+.bContainer .bCard .name {
+  color: black;
+  margin-bottom: 1.25rem;
+  font-family: "NanumSquareRound";
+  font-size: 23px;
+  font-weight: 800;
+}
+.bContainer .bCard .title {
+  color: black;
+  font-family: "Courier New";
+  min-width: 80%;
+  text-align: center;
+  border-top: 1px solid rgba(244, 244, 244, 0.8);
+  border-bottom: 1px solid rgba(244, 244, 244, 0.8);
+  margin-bottom: 1.25rem;
+  padding: 0.75rem 0px;
+}
+.bContainer .bCard .sns {
+  margin-bottom: 1.25rem;
+}
+.bContainer .bCard .menu .menuItem {
+  display: inline-block;
+  border: 1px solid rgba(244, 244, 244, 0.8);
+  border-radius: 10px;
+  margin: 5px;
+}
+.bContainer .bCard .menu .menuItem a {
+  padding: 0.5rem 0.75rem;
+}
+.bContainer .bCard a {
+  color: white;
+  border: 0px;
+}
+
+/*@media only screen and (max-width: 640px) {
+  .bContainer {
+    height: 100vh;
+  }
+  .bContainer .bCard {
+    min-width: 100%;
+    height: 100%;
+    padding: 0.3rem;
+    border: none;
+    box-shadow: none;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait) {
+  .bContainer {
+    font-size: 16px;
+  }*/
