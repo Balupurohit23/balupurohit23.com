@@ -6,6 +6,8 @@ import '../style/index.css'
 
 const Index = props => {
   return (
+    <div>
+    <Helmet title={"BaluPurohit23"} />
       <div className="bContainer">
         <div className="bCard">
           {/* Main Image */}
@@ -22,7 +24,7 @@ const Index = props => {
           <div className="name">Balu Purohit</div>
           {/* Title */}
           <div className="title">Keep Moving Forward</div>
-          {/* SNS Buttons */}
+          {/* Social Links Buttons */}
           <span>
           <SocialIcon url="mailto:balupurohit23@gmail.com" />&nbsp;
           <SocialIcon url="http://github.com/balupurohit23" />&nbsp;
@@ -34,9 +36,13 @@ const Index = props => {
           <SocialIcon url="https://medium.com/@balupurohit23" />&nbsp;
           <SocialIcon url="https://twitter.com/balupurohit23" />&nbsp;
           </span>
-
+    
+          <br></br>
+    			<Link to="/dummy-post">Go to my first dummy blog post</Link>
+    
+    </div>
           </div>
-          </div>
+    </div>
 
   )
 }
