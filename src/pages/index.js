@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import DefaultButton from '../components/button'
 import { SocialIcon } from 'react-social-icons'
 
