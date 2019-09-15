@@ -2,6 +2,7 @@
 path: "/dummy-post"
 date: 2017-07-12T17:12:33.962Z
 title: "My First Gatsby Post"
+description: "First dummy blog"
 tags: ["My",first"]
 author: "Balu Purohit"
 ---

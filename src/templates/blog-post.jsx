@@ -2,11 +2,11 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
 
-import { classNames } from '../utils/commonUtil'
+import { classNames } from 'utils/commonUtil'
+import SEO from 'components/seo'
 
-
-import '../style/posts.scss'
-import '../style/post.scss'
+import 'style/posts.scss'
+import 'style/post.scss'
 // import '../css/blog-post.css'; // make it pretty!
 
 export default function Template({
@@ -20,7 +20,9 @@ export default function Template({
   }
   return (
     <div className="blog-post-container">
-      <Helmet title={`${post.frontmatter.title}`} />
+      <Helmet title={`${post.frontmatter.title}`} >
+      <SEO title={`${post.frontmatter.title}`} description={`${post.frontmatter.description}`} /> 
+      </Helmet>
       <div className="blog-post">
         <h1>{post.frontmatter.title}</h1>
         <div className="tagContainer">
@@ -60,6 +62,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        description
         tags
         author
       }

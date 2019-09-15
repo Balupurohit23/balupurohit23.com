@@ -1,15 +1,17 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
+import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
-import DefaultButton from '../components/button'
+import DefaultButton from 'components/button'
+import SEO from 'components/seo'
 import { SocialIcon } from 'react-social-icons'
 
-import '../style/index.css'
+import 'style/index.css'
 
 const Index = props => {
   return (
     <div>
     <Helmet title={"BaluPurohit23"} />
+    <SEO title="My Amazing Gatsby App" /> 
       <div className="bContainer">
         <div className="bCard">
           {/* Main Image */}
@@ -26,7 +28,7 @@ const Index = props => {
           <div className="name">Balu Purohit</div>
           {/* Title */}
           <div className="title">Keep Moving Forward</div>
-          {/* Social Links Buttons */}
+          {/* Social links */}
           <span>
           <SocialIcon url="mailto:balupurohit23@gmail.com" />&nbsp;
           <SocialIcon url="http://github.com/balupurohit23" />&nbsp;
@@ -38,13 +40,13 @@ const Index = props => {
           <SocialIcon url="https://medium.com/@balupurohit23" />&nbsp;
           <SocialIcon url="https://twitter.com/balupurohit23" />&nbsp;
           </span>
-    
           <br></br>
-    			<Link to="/dummy-post">Go to my first dummy blog post</Link>
-    
-    </div>
+			<Link to="/dummy-post">Go to my first dummy blog post</Link>
           </div>
-    </div>
+        
+        </div>
+        
+      </div>
 
   )
 }

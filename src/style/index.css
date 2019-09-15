@@ -64,7 +64,7 @@
   border: 0px;
 }
 
-/*@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
   .bContainer {
     height: 100vh;
   }
@@ -79,4 +79,5 @@
 @media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait) {
   .bContainer {
     font-size: 16px;
-  }*/
+  }
+  }

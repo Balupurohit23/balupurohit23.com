@@ -4,12 +4,19 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
+const path = require('path')
+const siteUrl = process.env.URL || process.env.DEPLOY_URL || `https://www.balupurohit23.com`
+
 module.exports = {
   /* MetaData of my site */
   siteMetadata: {
     title: `BaluPurohit23`,
-    siteUrl: `https://www.balupurohit23.com`,
+    author: `Balu Purohit`,
     description: `Personal Blog of Balu Purohit`,
+    siteUrl,
+    social: {
+      twitter: `balupurohit23`,
+    },
   },
 
   /* Gatsby plugins */
@@ -63,6 +70,18 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images/`,
       },
+    },
+
+    {
+      resolve: 'gatsby-plugin-root-import',
+      options: {
+        src: path.join(__dirname, 'src'),
+        pages: path.join(__dirname, 'src/pages'),
+        components: path.join(__dirname, 'src/components'),
+        layout: path.join(__dirname, 'src/layout'),
+        style: path.join(__dirname, 'src/style'),
+        utils: path.join(__dirname, 'src/utils')
+      }
     },
 
     {
