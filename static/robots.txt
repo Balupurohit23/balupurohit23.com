@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: */tags/
+Disallow: */categories/
+
+sitemap: https://www.balupurohit23.com/sitemap.xml
