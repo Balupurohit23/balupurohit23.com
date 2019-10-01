@@ -7,7 +7,6 @@ import SEO from 'components/seo'
 
 import 'style/posts.scss'
 import 'style/post.scss'
-// import '../css/blog-post.css'; // make it pretty!
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query we'll write in a bit

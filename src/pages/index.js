@@ -11,7 +11,7 @@ const Index = props => {
   return (
     <div>
     <Helmet title={"BaluPurohit23"} />
-    <SEO title="My Amazing Gatsby App" /> 
+    <SEO title="My Gatsby Blog" /> 
       <div className="bContainer">
         <div className="bCard">
           {/* Main Image */}
