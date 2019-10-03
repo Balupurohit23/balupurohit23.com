@@ -121,6 +121,13 @@ module.exports = {
     },
 
     "gatsby-plugin-offline",
+    
+    {
+        resolve: `gatsby-plugin-disqus`,
+        options: {
+          shortname: config.disqusShortname
+        }
+    },
 
     {
       resolve: `gatsby-plugin-feed`,
