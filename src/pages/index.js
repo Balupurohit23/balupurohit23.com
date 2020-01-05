@@ -41,7 +41,7 @@ const Index = props => {
           <SocialIcon url="https://twitter.com/balupurohit23" />&nbsp;
           </span>
           <br></br>
-			<Link to="/dummy-post">Go to my first dummy blog post</Link>
+	  {/*<Link to="/dummy-post">Go to my first dummy blog post</Link>*/}
           </div>
         
         </div>
