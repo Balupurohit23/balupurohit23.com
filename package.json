@@ -32,7 +32,7 @@
     "gatsby-plugin-sharp": "^2.2.13",
     "gatsby-plugin-sitemap": "^2.2.12",
     "gatsby-source-filesystem": "^2.1.10",
-    "gatsby-transformer-remark": "^2.6.15",
+    "gatsby-transformer-remark": "^2.7.3",
     "gatsby-transformer-sharp": "^2.2.7",
     "install": "^0.13.0",
     "node-sass": "^4.12.0",
