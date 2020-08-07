@@ -52,7 +52,7 @@
     "gatsby-remark-responsive-iframe": "^2.1.1",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
-    "prismjs": "^1.16.0",
+    "prismjs": "^1.21.0",
     "react-disqus-comments": "^1.4.0",
     "react-share": "^2.4.0",
     "react-twitter-widgets": "^1.7.1",
